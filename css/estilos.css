@@ -1,0 +1,10 @@
+/* Regla tipo ID */
+#pie {
+	background-color: aqua;
+	margin-top: 100px;
+	border-top: 1px solid black;
+	padding: 20px;
+}
+.texto-centrado {
+	text-align: center;
+}
