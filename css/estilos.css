@@ -1,10 +1,30 @@
-/* Regla tipo ID */
-#pie {
-	background-color: aqua;
-	margin-top: 100px;
-	border-top: 1px solid black;
-	padding: 20px;
+/* Regla tipo #id */
+#encabezado {
+	background-color: green;
 }
-.texto-centrado {
-	text-align: center;
+
+#navbar {
+	background-color: purple;
+}
+
+#principal {
+	background-color: blue;
+}
+
+#contenido {
+	background-color: yellow;
+}
+
+#publicidad {
+	background-color: aqua;
+}
+
+#pie {
+	background-color: red;
+}
+
+/* Regla tipo .clase */
+.container {
+	width: 960px;
+	margin: 0 auto; /* centrado horizontal */
 }
