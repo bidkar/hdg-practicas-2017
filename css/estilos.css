@@ -4,27 +4,69 @@
 }
 
 #navbar {
-	background-color: purple;
+	background-color: coral;
 }
 
 #principal {
 	background-color: blue;
+	min-height: 450px;
 }
 
 #contenido {
 	background-color: yellow;
+	width: 730px;
+	float: left;
 }
 
 #publicidad {
 	background-color: aqua;
+	width: 200px;
+	float: right;
 }
 
 #pie {
 	background-color: red;
+	clear: both;
 }
 
 /* Regla tipo .clase */
 .container {
 	width: 960px;
 	margin: 0 auto; /* centrado horizontal */
+}
+
+/* Reglas tipo etiqueta */
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* Combinaciones de reglas */
+#encabezado, #principal, #pie {
+	padding-top: 1px;
+}
+
+#navbar ul {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+#navbar ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+#navbar ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	display: inline-block;
+	background-color: brown;
+}
+
+/* pseudo clases */
+#navbar ul li a:hover {
+	background-color: gold;
 }

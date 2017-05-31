@@ -12,30 +12,34 @@
 		<div class="container">
 			<h1>Titulo de la pagina</h1>
 			<nav id="navbar">
-				<!-- ul>li{enlace $}*5 -->
 				<ul>
-					<li>enlace 1</li>
-					<li>enlace 2</li>
-					<li>enlace 3</li>
-					<li>enlace 4</li>
-					<li>enlace 5</li>
+					<!-- li*5>a[href=#]{Enlace $} -->
+					<li><a href="#">Enlace 1</a></li>
+					<li><a href="#">Enlace 2</a></li>
+					<li><a href="#">Enlace 3</a></li>
+					<li><a href="#">Enlace 4</a></li>
+					<li><a href="#">Enlace 5</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
 	<main id="principal">
-		<div id="contenido">
-			<article class="nota">
-				<h2>titulo de la nota <span class="autor">autor de la nota</span></h2>
-				<p>contenido de la nota, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo voluptatem consequuntur, voluptatum, labore nam corporis porro quasi, vero voluptas qui totam quos veniam! Omnis dignissimos asperiores maxime est, enim modi.</p>
-			</article>
+		<div class="container">
+			<div id="contenido">
+				<article class="nota">
+					<h2>titulo de la nota <span class="autor">autor de la nota</span></h2>
+					<p>contenido de la nota, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo voluptatem consequuntur, voluptatum, labore nam corporis porro quasi, vero voluptas qui totam quos veniam! Omnis dignissimos asperiores maxime est, enim modi.</p>
+				</article>
+			</div>
+			<aside id="publicidad">
+				<img src="#" alt="imagen de publicidad" width="200" height="400">
+			</aside>
 		</div>
-		<aside id="publicidad">
-			<img src="#" alt="imagen de publicidad" width="200" height="400">
-		</aside>
 	</main>
 	<footer id="pie">
-		<p>todos los derechos reservados</p>
+		<div class="container">
+			<p>todos los derechos reservados</p>
+		</div>
 	</footer>
 </body>
 </html>
