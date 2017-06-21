@@ -14,25 +14,27 @@
 
 #contenido {
 	background-color: yellow;
-	width: 730px;
-	float: left;
+	width: 730px;	
 }
 
 #publicidad {
 	background-color: aqua;
 	width: 200px;
-	float: right;
 }
 
 #pie {
 	background-color: red;
-	clear: both;
 }
 
 /* Regla tipo .clase */
 .container {
 	width: 960px;
 	margin: 0 auto; /* centrado horizontal */
+}
+
+.flexcontainer {
+	display: flex;
+	justify-content: space-between;
 }
 
 /* Reglas tipo etiqueta */
