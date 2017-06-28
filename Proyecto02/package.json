@@ -1,0 +1,21 @@
+{
+  "name": "Proyecto02",
+  "version": "1.0.0",
+  "description": "descripcion del proyecto",
+  "keywords": [
+    "js",
+    "css",
+    "html"
+  ],
+  "author": "bidkar",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "boostrap": "^1.0.0",
+    "jquery": "^3.2.1"
+  }
+}
