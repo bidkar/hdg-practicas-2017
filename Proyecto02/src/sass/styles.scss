@@ -1,0 +1,13 @@
+$primary-color: brown;
+$main-font: Arial, sans, sans-serif;
+
+body {
+    color: $primary-color;
+    font-family: $main-font;
+}
+.titulo {
+    text-align: center;
+}
+.subtitulo {
+    font-size: 1em;
+}
